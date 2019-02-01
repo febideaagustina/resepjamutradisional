@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayoutt xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jamutemulawak">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:padding="5dp"
+        android:text="Bahan: \n
+1 ruas temulawak \n
+Asam jawa secukupnya \n
+Gula merah secukupnya \n
+
+Cara membuat: \n
+1.	Cuci bersih temulawak, potong halus. Rebus dengan segelas air bersama dengan gula merah dan asam jawa. \n
+2.	Tunggu hingga menjadi setengah gelas air, kemudian matikan kompor. \n
+3.	Dinginkan, siap dikonsumsi. \n
+"
+
+        android:textSize="24dp"
+        android:textStyle="normal" />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayoutt>

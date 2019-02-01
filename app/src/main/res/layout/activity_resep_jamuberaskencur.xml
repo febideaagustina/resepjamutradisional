@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jamuberaskencur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:padding="5dp"
+        android:text="Bahan: \n
+•	1500 ml air \n
+•	150 gram gula jawa \n
+•	125 gram kencur \n
+•	50 gram beras putih \n
+•	5 sendok makan gula pasir \n
+•	5 cm jahe \n
+•	1/2 sendok makan asam jawa \n
+Cara membuat jamu beras kencur: \n
+1.	Cuci bersih beras, kemudian rendam dalam air selama 1 jam. Setelah itu sisihkan. \n
+2.	Rebus asam jawa, gula pasir, gula merah dan jahe dengan air sampai mendidih. Setelah itu tunggu sampai agak dingin dan saring airnya. Sisihkan. \n
+3.	Cuci bersih kencur yang masih segar, kemudian kupas kulitnya dan potong-potong. \n
+4.	Tiriskan air rendaman beras yang sudah direndam tadi. Blender beras, kencur, dan air rebusan gula tadi hingga halus. \n
+5.	Saring jamu beras kencur. Kemudian peras ampas blenderan tadi sampai benar-benar kering. \n
+6.	Sajikan beras kencur dengan es batu atau simpan terlebih dahulu di dalam kulkas. \n
+"
+
+        android:textSize="24dp"
+        android:textStyle="normal" />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

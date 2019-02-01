@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jamukunyitasam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan: \n
+•	600 ml air \n
+•	100 gram gula jawa \n
+•	20 gr asam jawa \n
+•	8 buah kunyit ukuran besar \n
+Cara membuat jamu beras kencur: \n
+1.	Cuci bersih kunyit yang masih segar, kemudian kupas kulitnya. Parut atau blender dengan sedikit air, kemudian peras airnya hingga benar-benar habis. \n
+2.	Didihkan air, kemudian rebus air perasan kunyit, gula, dan asam jawa. \n
+3.	Setelah jamu mendidih, angkat dari kompor dan tunggu sampai dingin. Saring ke dalam gelas atau botol. \n
+"
+
+                    android:textSize="24dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

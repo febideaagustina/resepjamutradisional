@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.resepjamutradisional">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".resep_jamu_tradisional" />
+        <activity android:name=".resep_jamubersihdarah" />
+        <activity android:name=".resep_jamuberaskencur" />
+        <activity android:name=".resep_jamudaunpepaya" />
+        <activity android:name=".resep_jamucabaipuyung" />
+        <activity android:name=".resep_jamukunyitasam" />
+        <activity android:name=".resep_jamutemulawak" />
+        <activity android:name=".resep_jamukuncisirih" />
+        <activity android:name=".resep_jamupenyuburkandungan"></activity>
+    </application>
+
+</manifest>
